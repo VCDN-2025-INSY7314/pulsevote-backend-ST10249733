@@ -11,7 +11,7 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
-// Default route
+// Default route 
 app.get('/', (req, res) => {
     res.send('PulseVote is Running!');
 });
